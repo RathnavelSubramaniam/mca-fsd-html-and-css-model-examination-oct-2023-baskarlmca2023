@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<style>
+    .video {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .video::after {
+        display: block;
+        content: "";
+        padding-top: 56.25%;
+    }
+    
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .pdf {
+        text-align: center;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <section class="header">
+
+            <nav class="navbar">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#Courses">Courses</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="text-box">
+                <div class="logo" style="justify-content: center; text-align: center;">
+                    <img src="assets/images/logo.png" alt="">
+                    <h1>" RVS college of Arts and Science"</h1>
+                </div>
+
+                <p>Educating global citizens for a changing world and Empowering them to create solutions for tomorrow’s challenges
+                </p>
+                <a href="#" class="hero-btn">Visit Us to know More</a>
+            </div>
+        </section>
+    </header>
+    <!-- About -->
+    <div class="about" id="about">
+        <h1>About US</h1>
+
+
+
+
+        <p>Rathnavel Subramaniam College of Arts and Science, affiliated to Bharathiar University, Coimbatore, offer career-oriented education leading to graduation, post-graduation and research degrees in Arts and Science disciplines. Founded on 31st October,
+            1986, it has grown exuberantly to become one of the biggest self- financing colleges. The college was accorded autonomous status in 2004 by UGC and re-accredited in 2014 with an 'A' Grade further reaccredited in 2023 with A+ Grade.
+        </p>
+        <br>
+        <p>The College offers Bachelors, Masters and Research programs in various streams like Computer Science, Electronics, Management, Commerce, English Literature, Mathematics and Life Sciences.</p>
+    </div> <br>
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/FQKGPktmKMU?si=84Ppb51mnKuN50tj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div><br>
+    <div class="pdf">
+        <button>
+        <a href="assets/images/sample-1.pdf" alt="">Pdf</a></button>
+    </div>
+    <!-- COURSES -->
+    <section class="courses" id="Courses">
+        <h1>Courses We Offer</h1>
+
+        <div class="course-container">
+            <div class="course-card">
+                <h3>MCA</h3>
+                <p>Specialization: Dual Specialization (Full Stack Development-MERN & Full Stack Development-React Native)
+                </p>
+            </div>
+            <div class="course-card">
+                <h3>MBA</h3>
+                <p>Specialization in Digital Marketing, Business Analytics, Human Resource, Applied Finance and Logistic</p>
+            </div>
+            <div class="course-card">
+                <h3>MSc</h3>
+                <p> <b> M.Sc. Computer Science </b> <br> Specialization in Data Science and Full-Stack Development (MERN) <br> <b> M.Sc. Information Technology </b><br>Specialization in Cloud Computing
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Campus</h1>
+
+        <div class="campus-container">
+            <div class="campus-card">
+                <b>
+                    ZOHO
+                </b>
+                <img src="assets/images/zoho.jpg" alt="">
+            </div>
+            <div class="campus-card">
+                <b>
+                    INFOSYS
+                </b>
+                <img src="assets/images/infosys.png" alt="">
+            </div>
+            <div class="campus-card">
+                <b>WIPRO</b>
+                <img src="assets/images/wipro.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact -->
+    <div class="container" id="contact">
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="Email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="Email" name="Email" placeholder="Your Email..">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <h2></h2>
+        <p>All our social handles are mentioned below,do check them.We constantly post the activities and events happening in our socials.We hope a bright and rising future of you in our College</p>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-linkedin"></i>
+    </footer>
+</body>
+
+</html>
